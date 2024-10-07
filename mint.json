@@ -7,23 +7,23 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#FF3049",
+    "light": "#FF576C",
+    "dark": "#FF3049",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FF3049",
+      "to": "#FF3049"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:gm@junction.exchange"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://dashboard.junction.exchange"
   },
   "tabs": [
     {
@@ -35,17 +35,17 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.junction.exchange"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "Telegram",
+      "url": "https://t.me/junctionfi"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://blog.junction.exchange"
     }
   ],
   "navigation": [
@@ -84,8 +84,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/junctionfi",
+    "github": "https://github.com/junction-exchange",
+    "linkedin": "https://www.linkedin.com/company/junction-exchange"
   }
 }
