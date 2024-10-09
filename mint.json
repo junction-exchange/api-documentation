@@ -33,9 +33,9 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://docs.junction.exchange"
+      "name": "All the news",
+      "icon": "Twitter",
+      "url": "https://x.com/junctionfi"
     },
     {
       "name": "Community",
