@@ -1,0 +1,93 @@
+---
+title: 'GraphQL Queries and mutations'
+api: 'POST /graphql'
+---
+Query to fetch all supported tokens:
+```
+query chainsV2 {
+  routingV2 {
+    chainsV2 {
+      name
+      tokens {
+        asset {
+          id
+          name
+          symbol
+          contract
+        }
+      }
+    }
+  }
+}
+```
+Example response:
+```
+{
+  "data": {
+    "routingV2": {
+      "chainsV2": [
+        {
+          "name": "BTC",
+          "tokens": [
+            {
+              "asset": {
+                "contract": null,
+                "id": "d280d259-fc31-4989-9357-e17cb27a79a1",
+                "name": "Bitcoin",
+                "symbol": "BTC"
+              }
+            }
+          ]
+        },
+        {
+          "name": "BCH",
+          "tokens": [
+            {
+              "asset": {
+                "contract": null,
+                "id": "cf82a176-d3f6-496a-b3bd-91ed7fd0f236",
+                "name": "Bitcoin Cash",
+                "symbol": "BCH"
+              }
+            }
+          ]
+        },
+        {
+          "name": "LTC",
+          "tokens": [
+            {
+              "asset": {
+                "contract": null,
+                "id": "3acf799d-2365-4c27-b896-c0e9160dde5f",
+                "name": "Litecoin",
+                "symbol": "LTC"
+              }
+            }
+          ]
+        },
+        {
+          "name": "ETH",
+          "tokens": [
+            {
+              "asset": {
+                "contract": "0x72b886d09c117654ab7da13a14d603001de0b777",
+                "id": "0473ea55-1659-4c9f-a1df-dcd0c81eae5d",
+                "name": "XDEFI",
+                "symbol": "XDEFI"
+              }
+            },
+            {
+              "asset": {
+                "contract": null,
+                "id": "47544996-497b-4264-bbee-c9a8f64c06fe",
+                "name": "Ethereum",
+                "symbol": "ETH"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+```

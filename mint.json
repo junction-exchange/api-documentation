@@ -77,9 +77,7 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/graphql"
       ]
     }
   ],
@@ -87,5 +85,8 @@
     "x": "https://x.com/junctionfi",
     "github": "https://github.com/junction-exchange",
     "linkedin": "https://www.linkedin.com/company/junction-exchange"
+  },
+  "api": {
+    "baseUrl": "https://gql-router.staging.xdefi.services"
   }
 }
