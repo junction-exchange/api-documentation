@@ -37,17 +37,27 @@
   ],
   "anchors": [
     {
-      "name": "X",
+      "name": "See our website",
+      "icon": "website",
+      "url": "https://junction.exchange"
+    },
+    {
+      "name": "Follox us on X",
       "icon": "X",
       "url": "https://x.com/junctionfi"
     },
     {
-      "name": "Telegram",
+      "name": "Join our community on Telegram",
       "icon": "Telegram",
       "url": "https://t.me/junctionfi"
     },
     {
-      "name": "Newsletter",
+      "name": "Join our community on Discord",
+      "icon": "Discord",
+      "url": "https://discord.gg/nwhVduWqE8"
+    },
+    {
+      "name": "Get the last news",
       "icon": "newspaper",
       "url": "https://newsletter.junction.exchange"
     }
@@ -56,21 +66,21 @@
     {
       "group": "Welcome to the Junction",
       "pages": [
-        "Introduction",
-        "As a user",
-        "As a developer"
+        "introduction",
+        "as a user",
+        "as a developer"
       ]
     },
     {
       "group": "Junction Exchange",
       "pages": [
-        "Introduction"
+        "introduction"
       ]
     },
     {
       "group": "Junction API",
       "pages": [
-        "Introduction"
+        "introduction"
       ]
     },
     {
