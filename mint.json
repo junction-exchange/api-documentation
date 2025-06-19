@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Welcome to the Junction",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -22,50 +22,55 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.junction.exchange"
+    "name": "Visit our exchange",
+    "url": "https://app.junction.exchange"
   },
   "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Integrations",
+      "url": "integrations"
     }
   ],
   "anchors": [
     {
-      "name": "All the news",
-      "icon": "Twitter",
+      "name": "X",
+      "icon": "X",
       "url": "https://x.com/junctionfi"
     },
     {
-      "name": "Community",
+      "name": "Telegram",
       "icon": "Telegram",
       "url": "https://t.me/junctionfi"
     },
     {
-      "name": "Blog",
+      "name": "Newsletter",
       "icon": "newspaper",
-      "url": "https://blog.junction.exchange"
+      "url": "https://newsletter.junction.exchange"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Welcome to the Junction",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "Introduction",
+        "As a user",
+        "As a developer"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Junction Exchange",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "Introduction"
+      ]
+    },
+    {
+      "group": "Junction API",
+      "pages": [
+        "Introduction"
       ]
     },
     {
@@ -79,14 +84,22 @@
       "pages": [
         "api-reference/endpoint/graphql"
       ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/introduction"
+      ]
     }
   ],
   "footerSocials": {
+    "website": "https://junction.exchange",
     "x": "https://x.com/junctionfi",
     "github": "https://github.com/junction-exchange",
+    "discord": "https://discord.gg/nwhVduWqE8",
     "linkedin": "https://www.linkedin.com/company/junction-exchange"
   },
   "api": {
-    "baseUrl": "https://gql-router.staging.xdefi.services"
+    "baseUrl": "https://router-dev.junction.exchange/graphql"
   }
 }
