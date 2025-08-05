@@ -62,20 +62,19 @@
       "group": "Welcome to the Junction",
       "pages": [
         "introduction",
-        "as a user",
-        "as a developer"
+        "what-is-junction"
       ]
     },
     {
       "group": "Junction Exchange",
       "pages": [
-        "introduction"
+        "junction-exchange/introduction"
       ]
     },
     {
       "group": "Junction API",
       "pages": [
-        "introduction"
+        "junction/api/introduction"
       ]
     },
     {
