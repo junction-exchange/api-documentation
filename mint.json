@@ -22,7 +22,7 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Visit our exchange",
+    "name": "Try our exchange",
     "url": "https://app.junction.exchange"
   },
   "tabs": [
@@ -37,28 +37,28 @@
   ],
   "anchors": [
     {
-      "name": "See our website",
-      "icon": "website",
-      "url": "https://junction.exchange"
-    },
-    {
-      "name": "Follox us on X",
+      "name": "Social",
       "icon": "X",
       "url": "https://x.com/junctionfi"
     },
     {
-      "name": "Join our community on Telegram",
+      "name": "Website",
+      "icon": "Website",
+      "url": "https://junction.exchange"
+    },
+    {
+      "name": "Users community",
       "icon": "Telegram",
       "url": "https://t.me/junctionfi"
     },
     {
-      "name": "Join our community on Discord",
+      "name": "Devs community",
       "icon": "Discord",
       "url": "https://discord.gg/nwhVduWqE8"
     },
     {
-      "name": "Get the last news",
-      "icon": "newspaper",
+      "name": "Newsletter",
+      "icon": "Newspaper",
       "url": "https://newsletter.junction.exchange"
     }
   ],
