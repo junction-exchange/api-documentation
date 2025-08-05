@@ -68,7 +68,13 @@
     {
       "group": "Junction Exchange",
       "pages": [
-        "junction-exchange/introduction"
+        "junction-exchange/introduction",
+        "junction-exchange/platform-fee",
+        "junction-exchange/how-to-connect",
+        "junction-exchange/how-to-make-a-swap",
+        "junction-exchange/how-to-buy-crypto",
+        "junction-exchange/supported-blockchains",
+        "junction-exchange/supported-wallets"
       ]
     },
     {
