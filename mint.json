@@ -66,6 +66,12 @@
       ]
     },
     {
+      "group": "Junction API",
+      "pages": [
+        "junction-api/introduction"
+      ]
+    },
+    {
       "group": "Junction Exchange",
       "pages": [
         "junction-exchange/introduction",
@@ -73,14 +79,21 @@
         "junction-exchange/how-to-connect",
         "junction-exchange/how-to-make-a-swap",
         "junction-exchange/how-to-buy-crypto",
-        "junction-exchange/supported-blockchains",
-        "junction-exchange/supported-wallets"
+        "junction-exchange/supported-blockchains"
       ]
     },
     {
-      "group": "Junction API",
+      "group": "Junction Connector",
       "pages": [
-        "junction/api/introduction"
+        "junction-connector/introduction",
+        "junction-connector/supported-ecosystems",
+        "junction-connector/supported-wallets"
+      ]
+    },
+    {
+      "group": "Junction Earn",
+      "pages": [
+        "junction-earn/introduction"
       ]
     },
     {
