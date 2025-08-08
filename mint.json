@@ -63,6 +63,7 @@
       "pages": [
         "introduction",
         "what-is-junction",
+        "junction-contracts",
         "jun-tokenomics"
       ]
     },
@@ -94,7 +95,8 @@
     {
       "group": "Junction Earn",
       "pages": [
-        "junction-earn/introduction"
+        "junction-earn/introduction",
+        "junction-earn/what-is-xp"
       ]
     },
     {
