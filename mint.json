@@ -77,7 +77,8 @@
       "group": "Junction Earn",
       "pages": [
         "junction-earn/introduction",
-        "junction-earn/what-is-xp"
+        "junction-earn/what-is-xp",
+        "junction-earn/referrals"
       ]
     },
     {
@@ -97,28 +98,6 @@
       "pages": [
         "integrations/introduction"
       ]
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Social",
-      "icon": "X",
-      "url": "https://x.com/junctionfi"
-    },
-    {
-      "name": "Users community",
-      "icon": "Telegram",
-      "url": "https://t.me/junctionfi"
-    },
-    {
-      "name": "Devs community",
-      "icon": "Discord",
-      "url": "https://discord.gg/nwhVduWqE8"
-    },
-    {
-      "name": "Newsletter",
-      "icon": "Newspaper",
-      "url": "https://newsletter.junction.exchange"
     }
   ],
   "footerSocials": {
