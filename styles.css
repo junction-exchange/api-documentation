@@ -1,0 +1,9 @@
+/* Light mode background */
+html[data-theme='light'] {
+  background-color: #FFECEE;
+}
+
+/* Dark mode background */
+html[data-theme='dark'] {
+  background-color: #110808;
+}

@@ -15,6 +15,9 @@
       "to": "#FF3049"
     }
   },
+  "styling": {
+    "css": "styles.css"
+  },
   "topbarLinks": [
     {
       "name": "Support",
