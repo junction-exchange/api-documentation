@@ -15,16 +15,6 @@
       "to": "#FF3049"
     }
   },
-  "theme": {
-  "colors": {
-    "light": {
-      "background": "#FFFFFF"
-    },
-    "dark": {
-      "background": "#110808"
-    }
-  }
-},
   "topbarLinks": [
     {
       "name": "Support",
