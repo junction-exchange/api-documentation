@@ -38,28 +38,6 @@
       "url": "integrations"
     }
   ],
-  "anchors": [
-    {
-      "name": "Social",
-      "icon": "X",
-      "url": "https://x.com/junctionfi"
-    },
-    {
-      "name": "Users community",
-      "icon": "Telegram",
-      "url": "https://t.me/junctionfi"
-    },
-    {
-      "name": "Devs community",
-      "icon": "Discord",
-      "url": "https://discord.gg/nwhVduWqE8"
-    },
-    {
-      "name": "Newsletter",
-      "icon": "Newspaper",
-      "url": "https://newsletter.junction.exchange"
-    }
-  ],
   "navigation": [
     {
       "group": "Welcome to the Junction",
@@ -119,6 +97,28 @@
       "pages": [
         "integrations/introduction"
       ]
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Social",
+      "icon": "X",
+      "url": "https://x.com/junctionfi"
+    },
+    {
+      "name": "Users community",
+      "icon": "Telegram",
+      "url": "https://t.me/junctionfi"
+    },
+    {
+      "name": "Devs community",
+      "icon": "Discord",
+      "url": "https://discord.gg/nwhVduWqE8"
+    },
+    {
+      "name": "Newsletter",
+      "icon": "Newspaper",
+      "url": "https://newsletter.junction.exchange"
     }
   ],
   "footerSocials": {
