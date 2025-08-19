@@ -18,6 +18,9 @@
   "styling": {
     "css": "styles.css"
   },
+  "components": {
+    "HeroCard": "./components/HeroCard.tsx"
+  },
   "topbarLinks": [
     {
       "name": "Support",
