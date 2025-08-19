@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 interface HeroCardProps {
   img: string;
@@ -10,7 +9,7 @@ interface HeroCardProps {
 
 const HeroCard: React.FC<HeroCardProps> = ({ img, title, description, href }) => {
   return (
-    <Link href={href} className="block group">
+    <a href={href} className="block group no-underline">
       <div className="flex flex-col rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-200 p-6 h-full">
         <img
           src={img}
@@ -25,7 +24,7 @@ const HeroCard: React.FC<HeroCardProps> = ({ img, title, description, href }) =>
           Learn more →
         </span>
       </div>
-    </Link>
+    </a>
   );
 };
 
