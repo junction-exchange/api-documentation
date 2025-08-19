@@ -70,6 +70,7 @@
       "pages": [
         "junction-connector/introduction",
         "junction-connector/supported-ecosystems",
+        "junction-connector/supported-social-logins",
         "junction-connector/supported-wallets"
       ]
     },
