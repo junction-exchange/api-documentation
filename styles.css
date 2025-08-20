@@ -1,74 +1,135 @@
-/* Enlève le chevron du bouton CTA */
-.topbarCtaButton::after {
-  content: none !important;
-}
-
-/* Light mode background */
+/* ============================= */
+/* 🌞 LIGHT MODE */
+/* ============================= */
 html[data-theme='light'] {
-  background-color: #FFECEE; /* rose clair */
-  color: #FFECEE; /* texte clair sur fond clair (expérimental/inversé) */
+  background-color: #FFECEE; /* Fond clair */
+  color: #110808; /* Texte sombre */
 }
 
-/* Dark mode background */
-html[data-theme='dark'] {
-  background-color: #110808; /* noir profond */
-  color: #110808; /* texte foncé sur fond sombre (expérimental/inversé) */
-}
-
-/* Texte global - inversé */
-html[data-theme='light'] body,
-html[data-theme='light'] h1,
-html[data-theme='light'] h2,
-html[data-theme='light'] h3,
-html[data-theme='light'] h4,
-html[data-theme='light'] h5,
-html[data-theme='light'] h6,
-html[data-theme='light'] p,
-html[data-theme='light'] span,
+/* Titres & textes */
+html[data-theme='light'] .heading-1,
+html[data-theme='light'] .heading-2,
+html[data-theme='light'] .heading-3,
+html[data-theme='light'] .heading-4,
+html[data-theme='light'] .heading-5,
+html[data-theme='light'] .heading-6,
+html[data-theme='light'] .paragraph,
 html[data-theme='light'] a,
 html[data-theme='light'] li,
 html[data-theme='light'] strong,
 html[data-theme='light'] em,
 html[data-theme='light'] blockquote {
-  color: #FFECEE !important; /* texte clair sur fond clair */
+  color: #110808 !important;
 }
 
-html[data-theme='dark'] body,
-html[data-theme='dark'] h1,
-html[data-theme='dark'] h2,
-html[data-theme='dark'] h3,
-html[data-theme='dark'] h4,
-html[data-theme='dark'] h5,
-html[data-theme='dark'] h6,
-html[data-theme='dark'] p,
-html[data-theme='dark'] span,
+/* Cards */
+html[data-theme='light'] .card,
+html[data-theme='light'] .card-title,
+html[data-theme='light'] .card-header,
+html[data-theme='light'] .card-content {
+  color: #110808 !important;
+  border-color: #110808 !important;
+}
+
+/* Callouts */
+html[data-theme='light'] .callout,
+html[data-theme='light'] .callout-title,
+html[data-theme='light'] .callout-content {
+  color: #110808 !important;
+  border-color: #110808 !important;
+}
+
+/* Code blocks */
+html[data-theme='light'] .code,
+html[data-theme='light'] .inline-code {
+  color: #110808 !important;
+  border-color: #110808 !important;
+}
+
+/* Navigation */
+html[data-theme='light'] .sidebar-link,
+html[data-theme='light'] .sidebar-link-active,
+html[data-theme='light'] .pagination,
+html[data-theme='light'] .badge,
+html[data-theme='light'] .topbarCtaButton {
+  color: #110808 !important;
+  border-color: #110808 !important;
+}
+
+/* Borders & outlines */
+html[data-theme='light'] * {
+  border-color: #110808 !important;
+  outline-color: #110808 !important;
+}
+
+
+/* ============================= */
+/* 🌙 DARK MODE */
+/* ============================= */
+html[data-theme='dark'] {
+  background-color: #110808; /* Fond sombre */
+  color: #FFECEE; /* Texte clair */
+}
+
+/* Titres & textes */
+html[data-theme='dark'] .heading-1,
+html[data-theme='dark'] .heading-2,
+html[data-theme='dark'] .heading-3,
+html[data-theme='dark'] .heading-4,
+html[data-theme='dark'] .heading-5,
+html[data-theme='dark'] .heading-6,
+html[data-theme='dark'] .paragraph,
 html[data-theme='dark'] a,
 html[data-theme='dark'] li,
 html[data-theme='dark'] strong,
 html[data-theme='dark'] em,
 html[data-theme='dark'] blockquote {
-  color: #110808 !important; /* texte sombre sur fond sombre */
-}
-
-/* Cards + strokes inversés */
-html[data-theme='light'] .card,
-html[data-theme='light'] .card-title,
-html[data-theme='light'] .card-header,
-html[data-theme='light'] .card-content {
   color: #FFECEE !important;
-  border-color: #FFECEE !important;
 }
 
+/* Cards */
 html[data-theme='dark'] .card,
 html[data-theme='dark'] .card-title,
 html[data-theme='dark'] .card-header,
 html[data-theme='dark'] .card-content {
-  color: #110808 !important;
-  border-color: #110808 !important;
+  color: #FFECEE !important;
+  border-color: #FFECEE !important;
 }
 
-html[data-theme='light'] *,
+/* Callouts */
+html[data-theme='dark'] .callout,
+html[data-theme='dark'] .callout-title,
+html[data-theme='dark'] .callout-content {
+  color: #FFECEE !important;
+  border-color: #FFECEE !important;
+}
+
+/* Code blocks */
+html[data-theme='dark'] .code,
+html[data-theme='dark'] .inline-code {
+  color: #FFECEE !important;
+  border-color: #FFECEE !important;
+}
+
+/* Navigation */
+html[data-theme='dark'] .sidebar-link,
+html[data-theme='dark'] .sidebar-link-active,
+html[data-theme='dark'] .pagination,
+html[data-theme='dark'] .badge,
+html[data-theme='dark'] .topbarCtaButton {
+  color: #FFECEE !important;
+  border-color: #FFECEE !important;
+}
+
+/* Borders & outlines */
 html[data-theme='dark'] * {
-  border-color: currentColor !important;
-  outline-color: currentColor !important;
+  border-color: #FFECEE !important;
+  outline-color: #FFECEE !important;
+}
+
+/* ============================= */
+/* 🚫 Remove chevron from CTA button */
+/* ============================= */
+.topbarCtaButton::after {
+  content: none !important;
 }
